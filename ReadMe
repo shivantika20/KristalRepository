@@ -1,0 +1,33 @@
+Five Scenorios that are Automated:
+1. Search for Dog in bing
+2. Change the language to hindi and then back to English
+3. Clicking on the images in the menu bar and then coming back to bing.com
+4. Changing the background
+5. Removing the Search History
+
+
+
+Selenium installation process:
+
+1.Install Java SDK
+2.Install IntelliJidea
+3.Install Selenium Driver Files
+4.Configure Eclipse IDE with WebDriver
+5. Add External JARs.
+6. Download the driver for chrome use : ChromeDriver
+
+Jars Required:
+1. guava-21.0
+2. jcommander-1.78
+3. json-path4
+4. selenium-java-2.42
+5. Selenium Webdriver libraries - Libraries which allows you use all the Selenium functions and classes
+
+Running the testcases:
+Once all these are configured, run the main program.
+
+In the java class four imports are required
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
